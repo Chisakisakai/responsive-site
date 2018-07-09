@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*クリーム*/
+/*白*/
+/*オレンジ*/
+/*緑*/
+/*bass
+------------------------------------------------------------*/
+body {
+  font-size: 16px; }
+
+/*トップの画像のところ
+------------------------------------------------------------*/
+.shops-icon {
+  background-image: url("../images/img-cafe.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; } }
+/*3つのボックス
+------------------------------------------------------------*/
+h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px; }
+
+.container {
+  display: flex;
+  justify-content: space-between; }
+
+.box {
+  border: 1px solid #333;
+  width: 33%;
+  margin-right: 20px;
+  text-align: center; }
+
+.box h2 {
+  padding: 20px; }
+
+.box p {
+  padding: 20px; }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; } }
+/*ボタン
+------------------------------------------------------------*/
+.button {
+  border: 1px solid #333;
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px; }
+
+.map p {
+  text-align: center;
+  padding-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
