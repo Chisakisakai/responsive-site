@@ -12,7 +12,7 @@ body {
 ------------------------------------------------------------*/
 .shops-icon {
   background-image: url("../images/img-cafe.jpg");
-  height: 500px;
+  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center center; }
@@ -34,7 +34,8 @@ h1 {
 .box {
   border: 1px solid #333;
   width: 33%;
-  margin-right: 20px;
+  margin: 0 auto;
+  /*---margin-right: 20px;--*/
   text-align: center; }
 
 .box h2 {
