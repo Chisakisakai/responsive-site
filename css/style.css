@@ -12,14 +12,15 @@ body {
 ------------------------------------------------------------*/
 .shops-icon {
   background-image: url("../images/img-cafe.jpg");
-  height: 250px;
+  height: 500px;
   width: 100%;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  /* 横の位置（right, center, left） 縦の位置(top, center, bottom) */ }
 
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column; } }
+  .shops-icon {
+    height: 250px; } }
 /*3つのボックス
 ------------------------------------------------------------*/
 h1 {
@@ -34,8 +35,7 @@ h1 {
 .box {
   border: 1px solid #333;
   width: 33%;
-  margin: 0 auto;
-  /*---margin-right: 20px;--*/
+  margin: 20px;
   text-align: center; }
 
 .box h2 {
@@ -45,6 +45,9 @@ h1 {
   padding: 20px; }
 
 @media (max-width: 768px) {
+  .box {
+    width: 90%; }
+
   .container {
     flex-direction: column; } }
 /*ボタン
